@@ -1,39 +1,35 @@
 .pattern {
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  background-color: #e5e5f7;
-  opacity: 0.3;
-  background-image: radial-gradient(#444cf7 1px, #e5e5f7 1px);
-  background-size: 20px 20px;
+position: fixed;
+width: 100vw;
+height: 100vh;
+background-color: #e5e5f7;
+opacity: 0.3;
+background-image: radial-gradient(#444cf7 1px, #e5e5f7 1px);
+background-size: 20px 20px;
 }
 
 .nowrap {
-  flex-flow: row;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-}
-
-p {
-  hyphens: none;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
 }
 
 .info {
-  position: relative;
-  padding: 200px;
-  padding-left: 200px;
-  font-family: 'JetBrains Mono';
+position: relative;
+padding: 200px;
+padding-left: 200px;
+font-family: 'JetBrains Mono';
 }
 
 .btn {
-  color: #82003F;
-  /* Blue background */
-  padding: 12px 16px;
-  /* Some padding */
-  cursor: pointer;
+color: #82003F;
+/* Blue background */
+padding: 12px 16px;
+/* Some padding */
+cursor: pointer;
 }
 
 .btn:hover {
-  color: #5c022d;
+color: #5c022d;
 }
